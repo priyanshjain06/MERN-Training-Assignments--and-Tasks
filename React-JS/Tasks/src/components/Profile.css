@@ -1,0 +1,18 @@
+.profile-card {
+    background-color:rgb(88, 168, 209) ;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card h2 {
+    margin: 0 0 10px;
+}
+
+.profile-card p {
+    margin: 5px 0;
+}

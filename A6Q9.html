@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerHTML vs TextContent</title>
+</head>
+<body>
+    <p id="myElement"><strong>Bold Text</strong> and <em>italic text</em>.</p>
+    <button onclick="showContent()">Show Content</button>
+
+    <p>innerHTML: <span id="innerHtmlContent"></span></p>
+    <p>textContent: <span id="textContentDisplay"></span></p>
+
+    <script>
+        function showContent() {
+            const element = document.getElementById('myElement');
+            document.getElementById('innerHtmlContent').textContent = element.innerHTML;
+            document.getElementById('textContentDisplay').textContent = element.textContent;
+        }
+    </script>
+</body>
+</html>

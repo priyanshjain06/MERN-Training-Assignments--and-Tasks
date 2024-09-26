@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Zomato</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            background-color: white;
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .mid {
+            background-color: aquamarine;
+            height: 80vh;
+            width: 70vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url(images/task6.jpeg);
+            background-repeat: no-repeat;
+            background-size: 110vh;
+            background-size: 70vw;
+
+        }
+        
+        #search {
+            width: 25vw;
+            height: 30px;
+            border: none;
+        }
+
+        #select {
+            background-color: white;
+            width: 8vw;
+            height: 30px;
+            border: none;
+        }
+
+        .mid h1 {
+            margin-bottom: 13px;
+            color: white;
+            font-size: 60px;
+        }
+
+        .mid p {
+            margin-bottom: 30px;
+            color: white;
+            font-size: 20px;
+        }
+
+        .mid2 {
+            background-color: white;
+            padding: 10px 15px;
+            width: 40vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 10px;
+        }
+
+        #location {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="mid">
+            <h1>Zomato</h1>
+
+            <p>Discover the best food & drinks in Udaipur</p>
+
+
+            <div  class="mid2"><i class="fa-solid fa-location-dot" id="location"></i>
+                <select name="country" id="select">
+                    <option>Udaipur</option>
+                    <input id="search" type="search" placeholder="Search for restaurant,cuisine or a dish">
+
+                </select>
+            </div>
+        </div>
+
+</body>
+
+</html>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login Form</title>
+    <style>
+        * {
+
+            margin: 0;
+            padding: 0;
+        }
+
+        .email_pass {
+            padding: 10px 0px;
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+            color: aliceblue;
+        }
+
+        button {
+            margin-top: 10px;
+            background-color: rgb(37, 37, 214);
+            color: white;
+        }
+
+        .header {
+            background-color: rgb(71, 71, 155);
+            width: 100%;
+            height: 70px;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .forgot {
+            color: aliceblue;
+        }
+
+        .conditions a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        .conditions {
+            font-size: small;
+        }
+
+        .create a {
+            color: blue;
+        }
+
+        #click {
+            background-color: green;
+            color: azure;
+            height: 20px;
+            width: 10%;
+        }
+
+        #dob {
+            font-size: small;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="email_pass">
+            <div>
+                <span>Email or Phone</span>
+                <br>
+                <input type="email or phonenumber">
+            </div>
+            <div>
+                <span>Password</span>
+                <br>
+                <input type="password" id="password">
+                <a class="forgot" href="https://www.google.com">Forgotten account?</a>
+            </div>
+            <div>
+                <button class="button">Log In</button>
+            </div>
+    </header>
+    <fieldset>
+        <div class="create">
+
+            <h1> Create an account</h1>
+            <p>It's free and always will be.</p>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><input type="text" placeholder="First Name"></td>
+                        <td><input type="text" placeholder="Last name "></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="email or number" placeholder="Mobile Number or email"
+                                style="width: 99%;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="password" id="new password" placeholder="New password"
+                                style="width: 99%;"></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h4>Birthday</h4>
+            <select name="birthday" id="birthday">
+                <option value="default">Day</option>
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+                <option value="">4</option>
+                <option value="">5</option>
+                <option value="">6</option>
+                <option value="">7</option>
+                <option value="">8</option>
+                <option value="">9</option>
+                <option value="">10</option>
+                <option value="">11</option>
+                <option value="">12</option>
+                <option value="">13</option>
+                <option value="">14</option>
+                <option value="">15</option>
+                <option value="">16</option>
+                <option value="">17</option>
+                <option value="">18</option>
+                <option value="">19</option>
+                <option value="">20</option>
+                <option value="">21</option>
+                <option value="">22</option>
+                <option value="">23</option>
+                <option value="">24</option>
+                <option value="">25</option>
+                <option value="">26</option>
+                <option value="">27</option>
+                <option value="">28</option>
+                <option value="">29</option>
+                <option value="">30</option>
+                <option value="">31</option>
+            </select>
+
+            <select name="month" id="month">
+                <option value="default">Month</option>
+                <option value="">January</option>
+                <option value="">February</option>
+                <option value="">March</option>
+                <option value="">April</option>
+                <option value="">May</option>
+                <option value="">June</option>
+                <option value="">July</option>
+                <option value="">August</option>
+                <option value="">September</option>
+                <option value="">October</option>
+                <option value="">November</option>
+                <option value="">December</option>
+            </select>
+
+            <select name="year" id="year">
+                <option value="default">Year</option>
+                <option value="">1999</option>
+                <option value="">2000</option>
+                <option value="">2001</option>
+                <option value="">2002</option>
+                <option value="">2003</option>
+                <option value="">2004</option>
+                <option value="">2005</option>
+                <option value="">2006</option>
+                <option value="">2007</option>
+                <option value="">2008</option>
+                <option value="">2009</option>
+                <option value="">2010</option>
+                <option value="">2011</option>
+                <option value="">2012</option>
+                <option value="">2013</option>
+                <option value="">2014</option>
+                <option value="">2015</option>
+                <option value="">2016</option>
+                <option value="">2017</option>
+                <option value="">2018</option>
+                <option value="">2019</option>
+                <option value="">2020</option>
+                <option value="">2021</option>
+                <option value="">2022</option>
+                <option value="">2023</option>
+                <option value="">2024</option>
+            </select>
+
+            <a id="dob" href="">Why do I need to provide my date of birth?</a><br><br>
+
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female"><br><br>
+
+            <p class="conditions">By clicking Create an account, you agree to our <a href="#Terms">Terms</a> and that
+                you have read our <a href="#data_policy">Data Policy.</a> including our <a href="#cookie"> Cookie
+                    Use.</a></p><br>
+
+            <button id="click">Create an account</button><br><br>
+            <p class="conditions"><a href="#createapage">Create a Page</a> for a celebrity, brand or
+                business.</p>
+    </fieldset>
+    </div>
+</body>
+</html>

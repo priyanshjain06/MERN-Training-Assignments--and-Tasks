@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flodesk</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #container {
+            
+            height: 100vh;
+            width: 100vw;
+            background-color: white;
+            text-align: center;
+            background-image: url(images/task5.jpg);
+            background-size: cover;
+        }
+
+        #container2 {
+            padding: 28px 30px;
+            margin-left: 260px;
+            margin-top: 0px;
+            background-color: #fff;
+            height: 90vh;
+            width: 50vw;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            font-size: 70px;
+        }
+
+        .p1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .c1 {
+            height: 50px;
+            width: 60%;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 10px;
+            border-color: darkgrey;
+        }
+
+        .p2 {
+            color: grey;
+            font-size: 20px;
+        }
+
+        #submit {
+            background-color: black;
+            color: aliceblue;
+            height: 50px;
+            width: 225px;
+            text-align: center;
+            border-radius: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <div id="container2">
+            <h1>Flodesk</h1><br>
+            <p class="p1">Welcome back!</p><br><br>
+            <label class="c1" for="email">
+                <input type="email" id="email" class="c1" placeholder="Enter your email" />
+            </label><br><br>
+            <label for="password">
+                <input type="password" id="password" class="c1" placeholder="Enter your password" />
+            </label><br><br>
+            <!-- <button id="button">Login to Flodesk</button> -->
+            <input type="sumbit" id="submit" placeholder="Login to Flodesk" /><br><br>
+
+            <p class="p2">Not a member?<a href="#">Sign Up</a></p><br>
+            <a href="#" style="font-size:20px;">Forgot your password</a><br><br>
+            <p class="p2">By continuing you agree to Flodesk's <a href="#">term</a> and acknowledge you've read our <a href="#">privacy policy.</a></p>
+        </div>
+    </div>
+</body>
+
+</html>
